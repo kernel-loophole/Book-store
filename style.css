@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.navbar {
+    background-color: black;
+}
+
+a:hover {
+    background-color: black;
+    font-family: 'Dancing Script', cursive;
+    padding: 0.5em;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+#cover_pic {
+    background-image: url('cover.jpg');
+    background-size: cover;
+    text-align: center;
+    height: 500px;
+    width: 1300px;
+}
+
+.type {
+    font-size: x-large;
+    color: black;
+}
+
+.dropdown-menu {
+    background-color: black;
+}
+
+.card {
+    text-align: left;
+    text-transform: capitalize;
+}
+
+h5 {
+    color: black;
+    text-decoration: capitalize;
+}
+
+#link {
+    padding: 0.4em;
+}
+
+#display {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 20px;
+}
+
+
+/* prevent to go on next line for cards*/
+
+#change_of_background {
+    background-color: rgba(78, 230, 8, 0.712);
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;
+}
+
+#left {
+    text-align: left;
+    padding: 0em;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    display: grid;
+}
+
+#right {
+    display: grid;
+    text-align: center;
+    padding: 0em;
+}
