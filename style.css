@@ -56,10 +56,10 @@ h5 {
 /* prevent to go on next line for cards*/
 
 #change_of_background {
-    background-color: rgba(78, 230, 8, 0.712);
+    background-color: rgba(21, 24, 19, 0.712);
     font-family: 'Courier New', Courier, monospace;
-    color: black;
-    text-align: center;
+    color: rgb(167, 154, 154);
+    text-align:justify;
 }
 
 #left {
